@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida a Articlor v1.0</title>
+    <!-- Enlaza las hojas de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Bienvenida a Articlor v1.0 -->
+        <h1 class="head-title">¡Hola! Te damos la bienvenida a Articlor</h1>
+        <p align="center" color="#F0F0F0">
+            Una herramienta diseñada para facilitar la creación y gestión de tus escritos.
+            <br><br>
+            Con esta aplicación, puedes expresar tus ideas, investigaciones o historias de una manera organizada y eficiente.
+        </p>
+        
+        <!-- Lista de características de la versión 1.0 -->
+        <ul class="features">
+            <li><strong>Version 1.0 Release:</strong></li>
+            <li>Escribir y formatear artículos de manera intuitiva.</li>
+            <li>Guardar y abrir artículos en diferentes formatos.</li>
+            <li>Interfaz fácil de usar con acceso rápido a todas las funciones.</li>
+            <li>Personalizar la apariencia del editor según tus preferencias.</li>
+            <li>Exportar artículos en diversos formatos, como texto plano o HTML.</li>
+            <li>Compatibilidad con sistema operativo Windows y Mobile mediante navegadores web.</li>
+        </ul>
+        
+        <hr>
+        
+        <!-- Menú de opciones -->
+        <p class="body-text">Por favor, elige el tipo de artículo que deseas escribir:</p>
+        <div class="menu">
+			<a href="art_cientifico.html" target="_self">
+				<button class="menu-btn" onclick="chooseOption('cientifico')" aria-label="Escribir artículo científico">
+					Artículo Científico
+				</button>
+			</a>
+			<a href="art_dramatico.html" target="_self">
+				<button class="menu-btn" onclick="chooseOption('dramatico')" aria-label="Escribir artículo dramático">
+					Artículo Dramático
+				</button>
+			</a>
+			<a href="art_periodistico.html" target="_self">
+				<button class="menu-btn" onclick="chooseOption('periodistico')" aria-label="Escribir artículo periodístico">
+					Artículo Periodístico
+				</button>
+			</a>
+        </div>
+        
+        <!-- Contenedor para mostrar la elección del usuario -->
+        <div id="choice" class="choice"></div>
+    </div>
+	<h1 style="text-align: center;"><font face="Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif"><font color="#1abc9c"><br></font></font></h1><h1 style="text-align: center;"><font face="Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif"><font color="#1abc9c"><br></font></font></h1><h1 style="text-align: center;"><font face="Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif"><font color="#1abc9c">A</font><font color="#f39c12">R</font><font color="#e74c3c">T</font><font color="#95a5a6">iclor</font> </font><font size="5" face="Consolas, monaco, monospace" color="#bdc3c7"></font><br></h1><p style="text-align: center;"><font color="#d35400" face="Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif"></font></p><p style="text-align: center;"><font size ="4"color="#3498db">Por:</font><br><font size ="3"color="#3498db">Iván Narváez y Alan Valor</font></a></p><p style="text-align: center;"><br></p><p></p><div style="text-align: center;"><b></b></div><div style="text-align: center;"><i><font color="#95a5a6">&nbsp;</font></i></div><div style="text-align: center;"><i><font color="#95a5a6"></font></i></div><div style="text-align: center;"><i><font color="#1abc9c"></font><font color="#95a5a6">.</font></i></div>
+
+    <!-- Enlaza el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
